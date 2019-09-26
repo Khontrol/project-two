@@ -1,14 +1,19 @@
 {
-  "name": "Node-Website-EC2-Sample-App",
-  "description": "Sample NodeJs web application",
-  "version": "0.0.1",
-  "private": true,
-  "devDependencies": {
-    "mocha": "5.0.0",
-    "unit.js": "2.0.0",
-    "supertest": "3.0.0"
-  },
+  "name": "restfulblogapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha --recursive tests --exit"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Kinghorn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.1"
   }
 }
